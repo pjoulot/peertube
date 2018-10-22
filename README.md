@@ -1,4 +1,4 @@
-# peertube
+# PeerTube
 
 This module allows you to add PeerTube videos as Remote videos from the media module in drupal core.
 
@@ -17,5 +17,5 @@ In order to do that, a settings form gives you the choice to set the default oem
 
 <h3>Is it ready?</h3>
 
-No, the module is currently under development here: <a href="https://github.com/pjoulot/peertube">Peertube</a>
+No, the module is currently under development.
 

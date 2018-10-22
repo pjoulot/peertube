@@ -1,0 +1,9 @@
+name: Peertube
+description: 'Allows to contribue PeerTube videos as Remote video media.'
+type: module
+package: Media
+version: VERSION
+core: 8.x
+dependencies:
+  - drupal:media
+configure: peertube.settings

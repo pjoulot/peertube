@@ -1,0 +1,7 @@
+peertube.settings:
+  path: '/admin/config/media/peertube'
+  defaults:
+    _form: '\Drupal\peertube\Form\PeertubeSettingsForm'
+    _title: 'Peertube Settings'
+  requirements:
+    _permission: 'administer site configuration'
