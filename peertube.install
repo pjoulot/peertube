@@ -12,8 +12,8 @@ use Drupal\Core\Url;
  */
 function peertube_install() {
   // Override the Drupal default url provider by our custom controller.
-  // @fixme The domain name is fixed because Drupal functions doesn't work in hook_install.
-  $url_providers_list = 'http://aframe.lxc' . Url::fromRoute('peertube.providers_list')->toString();
+  // @fixme The domain name seems not right when installed with drush without --uri parameter.
+  $url_providers_list = Url::fromRoute('peertube.providers_list')->setAbsolute()->toString();
   $media_config = \Drupal::service('config.factory')->getEditable('media.settings');
   $media_config->set('oembed_providers_url', $url_providers_list)->save();
 }
