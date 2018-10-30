@@ -17,5 +17,6 @@ In order to do that, a settings form gives you the choice to set the default oem
 
 <h3>Is it ready?</h3>
 
-No, the module is currently under development.
+Yes. But it supports only one PeerTube instance at a time. The drupal core doesn't allow mutiple websites for a same provider. An issue has been created in order to fix that: <a href="https://www.drupal.org/project/drupal/issues/3008712">#3008712 oEmbed implementation has a centralized approach</a>
+
 
