@@ -42,7 +42,7 @@ class PeertubeSettingsForm extends ConfigFormBase {
       '#type' => 'textarea',
       '#title' => $this->t('Peertube instances'),
       '#default_value' => $config->get('peertube_instances'),
-      '#description' => $this->t('Contribute all the domain names of the PeerTube instances you want to use.'),
+      '#description' => $this->t('Contribute all the domain names of the PeerTube instances you want to use. For now, only the last one will be supported due to a core issue.'),
     );
 
     return parent::buildForm($form, $form_state);
